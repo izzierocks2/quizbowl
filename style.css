@@ -23,7 +23,11 @@ body{
     padding: 15px;
 }
 
-.submit-button{
+.submit-button button{
     padding: 15px;
     border: 1px solid;
+}
+
+#grad {
+    background-image: linear-gradient(purple, pink);
 }
