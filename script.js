@@ -1,5 +1,5 @@
-let questionList = ['Who won the 2022 NBA championship?', 'What is the tallest mountain in the world?', 'What is the largest desert in the world?'];
-let answerList = ['Golden State Warriors', 'Mount Everest', 'Antarctica'];
+let questionList = ['Who won the 2022 NBA championship?', 'What is the tallest mountain in the world?', 'What is the largest desert in the world?', 'Who won the 2018 NBA Championship?'];
+let answerList = ['Golden State Warriors', 'Mount Everest', 'Antarctica', 'Golden State Warriors'];
 let score = 0;
 let questionIndex = 0;
 
