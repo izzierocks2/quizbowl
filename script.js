@@ -1,5 +1,5 @@
-let questionList = ['Who won the 2022 NBA championship?', 'What is the tallest mountain in the world?', 'What is the largest desert in the world?', 'Who won the 2018 NBA Championship?'];
-let answerList = ['Golden State Warriors', 'Mount Everest', 'Antarctica', 'Golden State Warriors'];
+let questionList = ['Who won the 2022 NBA championship?', 'What is the tallest mountain in the world?', 'What is the largest desert in the world?', 'Who won the 2018 NBA Championship?', 'How do you say "me too" in italian?'];
+let answerList = ['Golden State Warriors', 'Mount Everest', 'Antarctica', 'Golden State Warriors', 'Anch io'];
 let score = 0;
 let questionIndex = 0;
 
@@ -27,7 +27,7 @@ let submitFunction = () =>{
 }
 
 let endGame = () =>{
-    if(questionIndex > 2){
+    if(questionIndex > 4){
         scoreContainer.textContent = "Final Score: " + score;
         question.textContent = "Congratulations, play again!";
         input.style.display = "none";
